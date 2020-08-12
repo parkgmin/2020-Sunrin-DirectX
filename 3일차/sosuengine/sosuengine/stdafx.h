@@ -1,7 +1,7 @@
 #pragma once
 
 //Program Setting
-#define CONSOLE_OFF false
+#define CONSOLE_OFF true
 #define SCREEN_WIDTH 1024
 #define SCREEN_HEIGHT 768
 #define BG_COLOR D3DCOLOR_ARGB(255,255,255,255)

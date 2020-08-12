@@ -55,7 +55,9 @@ LRESULT CALLBACK Application::WndProc(HWND hWnd, UINT iMessage, WPARAM wParam, L
 	return DefWindowProc(hWnd, iMessage, wParam, lParam);
 }
 HWND Application::FloatWindow(HINSTANCE hInstance, int cmdShow) {
-	hWnd = CreateWindow(PROGRAM_NAME, PROGRAM_NAME, WS_OVERLAPPED, CW_USEDEFAULT, CW_USEDEFAULT, SCREEN_WIDTH, SCREEN_HEIGHT, NULL, (HMENU)NULL, hInstance, NULL);
+	hWnd = CreateWindow(PROGRAM_NAME, PROGRAM_NAME, 
+		WS_OVERLAPPED, CW_USEDEFAULT, CW_USEDEFAULT, 
+		SCREEN_WIDTH, SCREEN_HEIGHT, NULL, (HMENU)NULL, hInstance, NULL);
 	ShowWindow(hWnd, cmdShow);
 	return hWnd;
 }
