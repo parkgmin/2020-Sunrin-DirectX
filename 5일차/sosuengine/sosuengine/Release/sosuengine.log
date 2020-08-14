@@ -1,0 +1,36 @@
+﻿  Background.cpp
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\Background.cpp(20,19): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameScene.cpp
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(78,54): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(80,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(82,56): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(101,21): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(109,15): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(115,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(116,43): error C2664: 'void std::list<Background *,std::allocator<Background *>>::push_back(const _Ty &)': 인수 1을(를) 'Sprite *'에서 '_Ty &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ty=Background *
+          ]
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(116,43): message : 원인: 'Sprite *'에서 '_Ty'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ty=Background *
+          ]
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(116,30): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\list(973,10): message : 'std::list<Background *,std::allocator<Background *>>::push_back' 선언을 참조하십시오.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(121,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(122,43): error C2664: 'void std::list<Background *,std::allocator<Background *>>::push_back(const _Ty &)': 인수 1을(를) 'Sprite *'에서 '_Ty &&'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ty=Background *
+          ]
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(122,43): message : 원인: 'Sprite *'에서 '_Ty'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ty=Background *
+          ]
+C:\Users\Sunrin\Desktop\2020-Sunrin-Game-Sosu\5일차\sosuengine\sosuengine\GameScene.cpp(122,30): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\list(973,10): message : 'std::list<Background *,std::allocator<Background *>>::push_back' 선언을 참조하십시오.
+  main.cpp
+  MainScene.cpp
