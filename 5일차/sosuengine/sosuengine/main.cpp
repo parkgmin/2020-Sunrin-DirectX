@@ -14,7 +14,7 @@ INT WINAPI WinMain(HINSTANCE hInstance
 		console.OpenConsole();
 	}
 
-	std::cout << "¾È³ç" << std::endl;
+	std::cout << "¾Æ·ÉÇÏ¼¼¿©~~~ÀÕ!" << std::endl;
 
 	app.InitWindow(hInstance);
 	app.InitD3D(app.FloatWindow(hInstance, cmdShow));
