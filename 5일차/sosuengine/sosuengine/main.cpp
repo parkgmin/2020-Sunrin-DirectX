@@ -14,7 +14,7 @@ INT WINAPI WinMain(HINSTANCE hInstance
 		console.OpenConsole();
 	}
 
-	std::cout << "아령하세여~~~잇!" << std::endl;
+	std::cout << "콘솔에 찍혀라!" << std::endl;
 
 	app.InitWindow(hInstance);
 	app.InitD3D(app.FloatWindow(hInstance, cmdShow));
